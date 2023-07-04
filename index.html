@@ -12,6 +12,7 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ebe9e414dd.js" crossorigin="anonymous"></script>
 
     <script src="script.js"></script>
 </head>
@@ -62,22 +63,125 @@
                 <div class="leftSide">
                     <img src="images/my image.jpg" alt="Akshit image">
                 </div>
-                <div class="rightSide">hi</div>
+                <div class="rightSide">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt et, consequuntur impedit tempora sapiente nam hic earum iste, magnam qui minima ex asperiores! Perferendis, deleniti vitae! Molestiae facilis laborum illum?</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills');">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience');">Experience</div>
+                        <div class="tab-links" onclick="opentab('education');">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Lorem ipsum</span> <br>lorm</li>
+                            <li><span>lorem </span><br>lorem</li>
+                            <li><span>lorem </span><br> lorem</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Lorem ipsum2</span> <br>lorm</li>
+                            <li><span>lorem </span><br>lorem</li>
+                            <li><span>lorem </span><br> lorem</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Lorem ipsum3</span> <br>lorm</li>
+                            <li><span>lorem </span><br>lorem</li>
+                            <li><span>lorem </span><br> lorem</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <hr>
+
+        <section class="skills"></section> -->
+
+        <hr>
+
+        <section class="projects">
+            <div class="heading">
+                <h1>My Projects</h1>
+            </div>
+            <div class="container">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StudyApp</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis!</p>
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StudyApp</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis!</p>
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StudyApp</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis!</p>
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+
+            </div>
+            <div class="container">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StudyApp</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis!</p>
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StudyApp</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis!</p>
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>StudyApp</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, nobis!</p>
+                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+
             </div>
         </section>
 
         <hr>
 
-        <section class="skills"></section>
+        <section class="contact_me">
+            <div class="heading">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="container">
+                <div class="contact-left">
 
-        <hr>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
 
-        <section class="projects"></section>
+                    <p><i class="fa-solid fa-phone"></i>1234583010</p>
+                    <div class="sicons">
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-github fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                    <a href="images/Akshit Jain.png" class="btn btn2" download="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Add your name" required>
+                        <input type="email" name="email" placeholder="Add your email" required>
+                        <textarea name="message" rows="6" placeholder="Enter Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
 
-        <hr>
-
-        <section class="contact_me"></section>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+    <script>
+    </script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
