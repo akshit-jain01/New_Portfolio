@@ -185,6 +185,7 @@ main hr {
 
 .tab-contents.active-tab {
     display: block;
+    width: 40%;
 }
 
 .side1 {
@@ -287,6 +288,10 @@ form textarea {
     margin: 20px;
     font-size: 18px;
     border-radius: 7px;
+}
+
+#msg {
+    color: rgb(32, 191, 191);
 }
 
 @media only screen and (max-width: 600px) {
